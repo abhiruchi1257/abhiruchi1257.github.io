@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Abhiruchi Passi | Professor, Electronics &amp; Communication Engineering, MRIIRS</title>
+<meta name="description" content="Dr. Abhiruchi Passi, Professor in the Department of Electronics and Communication Engineering at MRIIRS, Faridabad. 23 years of teaching and research.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: { ink:'#0F2A47', teal:'#0E7C86', mist:'#F3F6F9', gold:'#B8892B' },
+    fontFamily: { serif:['Newsreader','Georgia','serif'], sans:['Public Sans','system-ui','sans-serif'] }
+  } }
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+  body { font-family: 'Public Sans', system-ui, sans-serif; }
+  .trace { background-image:
+      linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+    background-size: 32px 32px; }
+  a:focus-visible, button:focus-visible { outline: 3px solid #B8892B; outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body class="bg-white text-slate-700 antialiased">
+
+<!-- Navigation -->
+<header class="sticky top-0 z-50 bg-ink/95 backdrop-blur text-white">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between" aria-label="Main">
+    <a href="#top" class="font-serif text-lg font-semibold tracking-wide">Dr. Abhiruchi Passi</a>
+    <ul class="hidden md:flex gap-7 text-sm">
+      <li><a class="hover:text-gold" href="#about">About</a></li>
+      <li><a class="hover:text-gold" href="#education">Education</a></li>
+      <li><a class="hover:text-gold" href="#research">Research</a></li>
+      <li><a class="hover:text-gold" href="#publications">Publications</a></li>
+      <li><a class="hover:text-gold" href="#contact">Contact</a></li>
+    </ul>
+    <button id="menuBtn" class="md:hidden p-2" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </nav>
+  <ul id="mobileMenu" class="hidden md:hidden px-4 pb-4 space-y-1 text-sm border-t border-white/10">
+    <li><a class="block py-2" href="#about">About</a></li>
+    <li><a class="block py-2" href="#education">Education</a></li>
+    <li><a class="block py-2" href="#research">Research</a></li>
+    <li><a class="block py-2" href="#publications">Publications</a></li>
+    <li><a class="block py-2" href="#contact">Contact</a></li>
+  </ul>
+</header>
+
+<main id="top">
+
+<!-- Hero -->
+<section class="relative bg-ink text-white trace overflow-hidden">
+  <svg class="absolute right-0 top-0 h-full w-2/3 opacity-20 hidden sm:block" viewBox="0 0 400 300" fill="none" stroke="#5CC8D0" stroke-width="2" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
+    <path d="M0 60h120l30 30h90l30-30h130M0 150h80l40 40h140l30-40h110M0 240h200l30-30h170"/>
+    <circle cx="120" cy="60" r="6" fill="#0F2A47"/><circle cx="240" cy="90" r="6" fill="#0F2A47"/>
+    <circle cx="260" cy="190" r="6" fill="#0F2A47"/><circle cx="200" cy="240" r="6" fill="#0F2A47"/>
+  </svg>
+  <div class="relative max-w-6xl mx-auto px-4 sm:px-6 py-14 md:py-24 grid md:grid-cols-[1fr_auto] gap-10 items-center">
+    <div>
+      <p class="text-teal-200 text-sm sm:text-base mb-3" style="color:#8FDCE2">Department of Electronics &amp; Communication Engineering</p>
+      <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight">Dr. Abhiruchi Passi</h1>
+      <p class="mt-3 text-lg sm:text-xl text-slate-200">Professor, Manav Rachna International Institute of Research and Studies (MRIIRS), Faridabad</p>
+      <p class="mt-5 max-w-xl text-slate-300 leading-relaxed">Educator and researcher in electronics and communication engineering, with 23 years of teaching and a doctorate awarded in 2016.</p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="https://scholar.google.com/citations?user=UFN9-3oAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-gold hover:bg-amber-600 text-white font-medium px-5 py-3 rounded-md">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-6 9.2v4.3c0 1.7 2.7 3.5 6 3.5s6-1.8 6-3.5v-4.3l-6 3.3-6-3.3z"/></svg>
+          Google Scholar profile
+        </a>
+        <a href="#contact" class="inline-flex items-center border border-white/40 hover:bg-white/10 px-5 py-3 rounded-md">Get in touch</a>
+      </div>
+    </div>
+
+    <!-- Portrait: replace the initials block with <img src="your-photo.jpg" alt="Dr. Abhiruchi Passi" class="w-full h-full object-cover"> -->
+    <div class="mx-auto md:mx-0 w-44 h-44 sm:w-56 sm:h-56 md:w-72 md:h-72 rounded-full border-4 border-gold bg-white/10 flex items-center justify-center overflow-hidden shadow-xl">
+      <span class="font-serif text-6xl md:text-7xl text-white/90" aria-label="Photo placeholder">AP</span>
+    </div>
+  </div>
+</section>
+
+<!-- Key figures -->
+<section class="bg-mist border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div><p class="font-serif text-3xl text-ink">23+</p><p class="text-sm">Years in teaching</p></div>
+    <div><p class="font-serif text-3xl text-ink">PhD</p><p class="text-sm">Awarded 2016</p></div>
+    <div><p class="font-serif text-3xl text-ink">M.Tech</p><p class="text-sm">Electronics &amp; Communication, 2006</p></div>
+    <div><p class="font-serif text-3xl text-ink">MDBA</p><p class="text-sm">Symbiosis, Pune</p></div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-3 gap-10">
+  <h2 class="font-serif text-3xl text-ink">About</h2>
+  <div class="md:col-span-2 space-y-4 leading-relaxed text-lg max-w-2xl">
+    <p>I am a Professor in the Department of Electronics and Communication Engineering at MRIIRS, Faridabad. I graduated in Electronics and Communication Engineering in 2001 and have been in the teaching profession for more than 23 years.</p>
+    <p>My academic path combines engineering with management: an MDBA from Symbiosis, Pune, followed by an M.Tech in Electronics and Communication Engineering in 2006 and a PhD in 2016. This helps me teach technical subjects with an eye on how they are used in industry and in organisations.</p>
+    <p>I mentor students through coursework, projects and research, and publish my work for the wider academic community.</p>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="bg-mist">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-3 gap-10">
+    <h2 class="font-serif text-3xl text-ink">Education</h2>
+    <ol class="md:col-span-2 relative border-l-2 border-teal/40 ml-3 space-y-8 max-w-2xl">
+      <li class="pl-8 relative">
+        <span class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-teal ring-4 ring-mist"></span>
+        <p class="text-sm font-semibold text-teal">2016</p>
+        <h3 class="font-serif text-xl text-ink">Doctor of Philosophy (PhD)</h3>
+        <p>Electronics and Communication Engineering</p>
+      </li>
+      <li class="pl-8 relative">
+        <span class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-teal ring-4 ring-mist"></span>
+        <p class="text-sm font-semibold text-teal">2006</p>
+        <h3 class="font-serif text-xl text-ink">M.Tech, Electronics and Communication Engineering</h3>
+      </li>
+      <li class="pl-8 relative">
+        <span class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-teal ring-4 ring-mist"></span>
+        <p class="text-sm font-semibold text-teal">Post-graduation</p>
+        <h3 class="font-serif text-xl text-ink">MDBA</h3>
+        <p>Symbiosis, Pune</p>
+      </li>
+      <li class="pl-8 relative">
+        <span class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-teal ring-4 ring-mist"></span>
+        <p class="text-sm font-semibold text-teal">2001</p>
+        <h3 class="font-serif text-xl text-ink">B.E./B.Tech, Electronics and Communication Engineering</h3>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- Research -->
+<section id="research" class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+  <h2 class="font-serif text-3xl text-ink mb-8">Research and teaching areas</h2>
+  <!-- Edit these cards to match your actual areas -->
+  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <article class="border border-slate-200 rounded-lg p-6">
+      <svg class="w-8 h-8 text-teal mb-3" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12a7 7 0 0 1 14 0M8 12a4 4 0 0 1 8 0M12 12v8"/></svg>
+      <h3 class="font-serif text-xl text-ink">Communication systems</h3>
+      <p class="mt-2 text-sm">Wireless and digital communication, signals and systems.</p>
+    </article>
+    <article class="border border-slate-200 rounded-lg p-6">
+      <svg class="w-8 h-8 text-teal mb-3" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1"/><path stroke-linecap="round" d="M10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4"/></svg>
+      <h3 class="font-serif text-xl text-ink">Electronics and embedded systems</h3>
+      <p class="mt-2 text-sm">Analog and digital electronics, microcontrollers, VLSI fundamentals.</p>
+    </article>
+    <article class="border border-slate-200 rounded-lg p-6">
+      <svg class="w-8 h-8 text-teal mb-3" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M3 20V10m6 10V4m6 16v-7m6 7V8"/></svg>
+      <h3 class="font-serif text-xl text-ink">Technology and management</h3>
+      <p class="mt-2 text-sm">Bringing management perspective to engineering education and projects.</p>
+    </article>
+  </div>
+</section>
+
+<!-- Publications -->
+<section id="publications" class="bg-mist">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-16">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+      <div>
+        <h2 class="font-serif text-3xl text-ink">Publications</h2>
+        <p id="pubCount" class="mt-1 text-sm"></p>
+      </div>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <label class="sr-only" for="pubSearch">Search publications</label>
+        <input id="pubSearch" type="search" placeholder="Search title, author or venue" class="w-full sm:w-72 border border-slate-300 rounded-md px-3 py-2 text-sm focus:border-teal focus:ring-2 focus:ring-teal/30 outline-none">
+        <a href="https://scholar.google.com/citations?user=UFN9-3oAAAAJ&hl=en" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-ink text-white text-sm font-medium px-4 py-2 rounded-md hover:bg-slate-800">Full list on Google Scholar</a>
+      </div>
+    </div>
+    <!-- Add or edit entries in the PUBLICATIONS array in the script at the bottom of this file -->
+    <ol id="pubList" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5"></ol>
+    <p id="pubEmpty" class="hidden text-sm">No publications match your search.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid md:grid-cols-3 gap-10">
+  <h2 class="font-serif text-3xl text-ink">Contact</h2>
+  <ul class="md:col-span-2 space-y-4 max-w-2xl">
+    <li class="flex gap-3">
+      <svg class="w-6 h-6 text-teal shrink-0" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+      <span>Department of Electronics &amp; Communication Engineering, MRIIRS, Sector 43, Aravalli Hills, Faridabad, Haryana</span>
+    </li>
+    <li class="flex gap-3">
+      <svg class="w-6 h-6 text-teal shrink-0" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path stroke-linecap="round" stroke-linejoin="round" d="m3 7 9 6 9-6"/></svg>
+      <!-- Replace with your official email -->
+      <a class="text-teal underline" href="mailto:your.name@mru.edu.in">your.name@mru.edu.in</a>
+    </li>
+    <li class="flex gap-3">
+      <svg class="w-6 h-6 text-teal shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-6 9.2v4.3c0 1.7 2.7 3.5 6 3.5s6-1.8 6-3.5v-4.3l-6 3.3-6-3.3z"/></svg>
+      <a class="text-teal underline" href="https://scholar.google.com/citations?user=UFN9-3oAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>
+    </li>
+  </ul>
+</section>
+
+</main>
+
+<footer class="bg-slate-900 text-slate-400 text-sm">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between gap-2">
+    <p>&copy; <span id="yr">2026</span> Dr. Abhiruchi Passi. All rights reserved.</p>
+    <p>Professor, ECE, MRIIRS, Faridabad</p>
+  </div>
+</footer>
+
+<script>
+  const btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
+  btn.addEventListener('click', () => {
+    const open = menu.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', open);
+  });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.add('hidden'); btn.setAttribute('aria-expanded', false); }));
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // ---- PUBLICATIONS: add, edit or remove entries here ----
+  const PUBLICATIONS = [
+    {"year": 2026, "title": "Performance analysis of Ad-Hoc network", "authors": "Yadav, Amana; Pareek, Neelu; Passi, Abhiruchi; Midda, Neha; Varma, Ikroop", "venue": "AIP Conference Proceedings, Vol. 3387, No. 1, pp. 040004", "type": "Conference"},
+    {"year": 2026, "title": "Li-Fi-Future technology of wireless communication", "authors": "Kathpal, Namita; Goyal, Raghav; Gosain, Saurav; Khan, Kamil; Nagorta, Ayushi; Passi, Abhiruchi", "venue": "AIP Conference Proceedings, Vol. 3387, No. 1, pp. 030002", "type": "Conference"},
+    {"year": 2025, "title": "Bhagyalakshmi L and Sanjay Kumar Suman,“Enhancing Energy Efficiency and Data Reliability in Wireless Sensor Networks Through Adaptive Multi-Hop Routing with Integrated Machine Learning”", "authors": "Pande, Kuldeep; Passi, Abhiruchi; Rao, Madhava; Sholapurapu, Prem Kumar", "venue": "Journal of Machine and Computing, Vol. 5, No. 4, pp. 2504-2512", "type": "Journal"},
+    {"year": 2025, "title": "Enhancing Energy Efficiency and Data Reliability in Wireless Sensor Networks Through Adaptive Multi-Hop Routing with Integrated Machine Learning", "authors": "Pande, Kuldeep; Passi, Abhiruchi; Rao, Madhava; Sholapurapu, Prem Kumar; Bhagyalakshmi, L; Suman, SK", "venue": "Journal of Machine and Computing, Vol. 5, No. 4, pp. 2504-2512", "type": "Journal"},
+    {"year": 2024, "title": "Schematic of Electronic Apex Locators, Different Generations and Inexpensive Designing Method: An Overview", "authors": "Saad, Mohammad; Manhas, Pratima; Passi, Abhiruchi", "venue": "2024 International Conference on Emerging Innovations and Advanced Computing (INNOCOMP), pp. 652-655", "type": "Conference"},
+    {"year": 2024, "title": "Fusion of Cryptography and Steganography with LSB for Secure Data Hiding", "authors": "Verma, Jyoti; Rana, Sonu; Kathpal, Namita; Singh, Vimlesh; Passi, Abhiruchi; Deb, Pragati Shrivastava", "venue": "2024 1st International Conference on Sustainability and Technological Advancements in Engineering Domain (SUSTAINED), pp. 308-313", "type": "Conference"},
+    {"year": 2024, "title": "Microstripline Antenna for Space Application", "authors": "Dhingra, Yash; Kumar, Ritish; Dhotra, Piyush; Singh, Vimlesh; Passi, Abhiruchi; Kaur, Amrinder", "venue": "2024 1st International Conference on Sustainability and Technological Advancements in Engineering Domain (SUSTAINED), pp. 429-432", "type": "Conference"},
+    {"year": 2024, "title": "Beyond Landfill: A Review on the Amelioration of Polymer, Composites, and Ceramic Recycling", "authors": "Mehta, Jimmy; Hooda, Yaman; Passi, Abhiruchi", "venue": "Biennial International Conference on Future Learning Aspects of Mechanical Engineering, pp. 359-369", "type": "Conference"},
+    {"year": 2023, "title": "Adaptive Clustering—An Optimal Solution to Hotspot Issue in Wireless Sensor Networks", "authors": "Wahid Bhat, Ab; Passi, Abhiruchi", "venue": "Renewable Energy Optimization, Planning and Control: Proceedings of ICRTE 2022, pp. 337-346", "type": "Conference"},
+    {"year": 2023, "title": "An enhanced time series analysis to improve the performance of 5G communication systems", "authors": "Krishna, Somanchi Hari; Passi, Abhiruchi; Kanaka, Vinitha; Kothandaraman, Ishwarya; Lakshmi, Thirumala Reddy Vijaya", "venue": "Engineering Proceedings, Vol. 59, No. 1, pp. 103", "type": "Conference"},
+    {"year": 2023, "title": "An Interdisciplinary Approach for Evaluation of Green Building Index", "authors": "Hooda, Yaman; Singh, Haobam Derit; Mehta, Jimmy; Passi, Abhiruchi; Mehta, Sahil", "venue": "2023 International Conference on Advances in Computation, Communication and Information Technology (ICAICCIT), pp. 509-512", "type": "Conference"},
+    {"year": 2023, "title": "CardioEdge–AI Powered Exercise Companion", "authors": "Kaushik, Simran; Iyer, Srinidhi; Passi, Abhiruchi", "venue": "MR International Journal of Engineering and Technology, Vol. 10, No. 2", "type": "Journal"},
+    {"year": 2023, "title": "Design and Analysis of New Dual-Channel Microstrip Diplexer for GSM and WLAN Band Applications", "authors": "Passi, Abhiruchi; Singh, Vimlesh", "venue": "International Conference on Computational Electronics for Wireless Communications (ICCWC), pp. 283-292", "type": "Conference"},
+    {"year": 2022, "title": "Wireless sensor network motes: A comparative study", "authors": "Bhat, Ab Wahid; Passi, Abhiruchi", "venue": "2022 9th International Conference on Computing for Sustainable Global Development (INDIACom), pp. 141-144", "type": "Conference"},
+    {"year": 2022, "title": "Image forgery detection and localization using block based and key-point based feature matching forensic investigation", "authors": "Monika; Bansal, Dipali; Passi, Abhiruchi", "venue": "Wireless Personal Communications, Vol. 127, No. 4, pp. 2823-2839", "type": ""},
+    {"year": 2022, "title": "Comparison of Nano Q plus Operating System with other operating systems in Wireless Sensor Networks,", "authors": "", "venue": "International Conference on Re-inventing Business, Entrepreneurship and Sustainability in the Era of Challenges (MRCON, 2022)", "type": "Conference"},
+    {"year": 2022, "title": "IOT enabled smart Garbage Monitoring System", "authors": "Passi, Abhiruchi", "venue": "10th International Conference on Recent Challenges in Engineering and Technology, Bali Indonesia", "type": "Conference"},
+    {"year": 2022, "title": "ADAPTIVE CLUSTERING –AN OPTIMAL SOLUTION TO HOTSPOT ISSUE IN WIRELESS SENSOR NETWORKS", "authors": "Ab Wahid, Abhiruchi Passi", "venue": "INTERNATIONAL CONFERENCE ON RENEWABLE TECHNOLOGIES IN ENGINEERING", "type": "Conference"},
+    {"year": 2022, "title": "Analysis of electric vehicles", "authors": "Madan, Arshita; Bhardwaj, Yash; Passi, Abhiruchi", "venue": "International Journal of Engineering, pp. 001-006", "type": "Journal"},
+    {"year": 2021, "title": "Digital image forensic based on machine learning approach for forgery detection and localization", "authors": "Monika; Passi, Abhiruchi", "venue": "Journal of physics: Conference series, Vol. 1950, No. 1, pp. 012035", "type": "Conference"},
+    {"year": 2021, "title": "Perspective of wireless sensor networks towards Environment: Gaps and Challenges", "authors": "Rajshree; Passi, Abhiruchi; Soni, MK", "venue": "Journal of Physics: Conference Series, Vol. 1950, No. 1, pp. 012036", "type": "Conference"},
+    {"year": 2021, "title": "Image Forensic Investigation Using Discrete Cosine Transform Based Approach", "authors": "Monika, Dipali Bansal, Abhiruchi Passi", "venue": "Wireless Personal Commuuncations, pp. 3241-3253", "type": ""},
+    {"year": 2021, "title": "Internet of Things and it's applications", "authors": "Passi, Abhiruchi", "venue": "XI AN University", "type": ""},
+    {"year": 2020, "title": "Manav Rakshak: Device to help maintain Social Distancing", "authors": "Abhiruchi Passi, Devdutt", "venue": "International Journal of Engineering and Advanced Technology, Vol. 9, No. 4, pp. 2401-2403", "type": "Journal"},
+    {"year": 2020, "title": "An Automated Prepaid Electric Vehicle Charging Point System", "authors": "Abhiruchi Passi, Parth Sarthi", "venue": "International Journal of Advanced Science and Technology", "type": "Journal"},
+    {"year": 2020, "title": "Role of Artificial Intelligence in Speech Recognition", "authors": "Mohit Rath, Abhiruchi Passi, Madhusuan Soni, Dipak Shah", "venue": "Compliance Engineering Journal, Vol. 11, No. 6, pp. 667-671", "type": "Journal"},
+    {"year": 2019, "title": "An Internet of Things (IOT) based Class Monitoring System: Suchak", "authors": "Abhiruchi Passi, Devdutt", "venue": "International Journal of Recent Technology and Engineering (IJRTE), Vol. 8, No. 3, pp. 6912-6915", "type": "Journal"},
+    {"year": 2019, "title": "Wireless Propagation of Electricity: Advancements and Challenges", "authors": "Sarthi, Parth; Passi, Abhiruchi; Choudhary, Monika; Verma, Mohit", "venue": "2019 6th International Conference on Computing for Sustainable Global Development (INDIACom), pp. 323-326", "type": "Conference"},
+    {"year": 2019, "title": "Design 10- Transistor (10t) Sram using Finfet Technology", "authors": "Jyoti Verma, Abhiruchi Passi, Savita Sindhu", "venue": "International Journal of Engineering and Advanced Technology, Vol. 9, No. 1, pp. 566-572", "type": "Journal"},
+    {"year": 2017, "title": "Plant Watering Robot “ Plant o Bot", "authors": "Devdutt, Ishlok, Vimlesh, Priyanka Bansal, Abhiruchi Passi", "venue": "International Journal of Computer Science and Mobile Computing, Vol. 6, No. 4, pp. 349-352", "type": "Journal"},
+    {"year": 2017, "title": "Designing of Solar Powered Dispenser", "authors": "Abhiruchi Passi, Priyanka Bansal, Vimlesh Singh, Jatin Arora, Aarav Punjabi", "venue": "International Research Journal of Engineering and Technology, Vol. 4, No. 4, pp. 1-4", "type": "Journal"},
+    {"year": 2017, "title": "Performance Enhancement of Hemispherical Dielectric Resonator Antenna by Using Artificial Materials", "authors": "Deepak Batra, Rajeev Ratan, Abhiruchi Passi", "venue": "International Journal of Research, Vol. 4, No. 7, pp. 1257-1261", "type": "Journal"},
+    {"year": 2017, "title": "RF Energy Harvesting Antenna", "authors": "Vimlesh Singh, Priyanka Bansal, Abhiruchi Passi", "venue": "International Journal of Advance Research in Science and Engineering, Vol. 6, No. 10, pp. 660-666", "type": "Journal"},
+    {"year": 2017, "title": "Future of internet of things (IoT) in 5G wireless networks", "authors": "Passi, Abhiruchi; Batra, Deepak", "venue": "International Journal of Engineering & Technology, Vol. 7, No. 1.5, pp. 245", "type": "Journal"},
+    {"year": 2015, "title": "Design of Compact Dumbbell shaped Low Pass Filter with high sharpness using four Ring Shaped Defected Ground Structure", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on  Recent Advances in Microwave Engineering", "type": "Conference"},
+    {"year": 2015, "title": "Design of Novel Low Pass Filter with Array of Ring Shaped Defected Ground Structure", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on  Recent Advances in Communication Engineering", "type": "Conference"},
+    {"year": 2014, "title": "Coupled Line Band Pass Filter with Defected Ground Structure for Wide Band Application", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "International Journal of Engineering Research and Application (IJERA), Vol. 4, No. 7, pp. 14-18", "type": "Journal"},
+    {"year": 2013, "title": "Design of Ultra Wideband Band Pass Filter using defected ground structure", "authors": "Nagpal, Abhiruchi", "venue": "International Journal of Communication Engineering Applications, Vol. 4", "type": "Journal"},
+    {"year": 2013, "title": "Design of Hexagonal Double Dumb bell Shaped Low Pass Filter with High Sharpness and Wide Rejection Bandwidth by Using Array of Defected Ground Structure", "authors": "Abhiruchi Nagpal, P.K.Singhal, Abha Aggarwal", "venue": "International Journal of Electronics and Communication Technology, Vol. 4, No. 02, pp. 288-290", "type": "Journal"},
+    {"year": 2013, "title": "Nine Pole Microstrip Low Pass Filter With double dumbbell shaped DGS", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on  Electronics and Communication Systems", "type": "Conference"},
+    {"year": 2013, "title": "Microstrip Low Pass Filter using Double Dumbbell Shaped Defected Ground Structure", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on Trends in Signal Processing & Communication", "type": "Conference"},
+    {"year": 2013, "title": "Wide Suppressed Harmonics Low Pass Filter using array of Circular Defected Ground Structure", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on New Paradigms in Electronics, Communication & Computing", "type": "Conference"},
+    {"year": 2013, "title": "Design of Compact Hexagonal Double Dumbbell shaped Low Pass Filter with high sharpness using array of ring shaped Defected Ground Structure", "authors": "Abhiruchi Passi, P.K.Singhal, Abha Agarwal", "venue": "National Conference on New Paradigms in Electronics, Communication & Computing", "type": "Conference"},
+    {"year": 2013, "title": "Designing of Transbot or Scoutbot", "authors": "Abhiruchi Passi, Jayeeta Roy, Chanderbhushan, Abhinav", "venue": "National Conference on New Paradigms in Electronics, Communication & Computing", "type": "Conference"},
+    {"year": 2013, "title": "Design of Hexagonal Double Dumbbell shaped Low Pass Filter with high sharpness & wide rejection Bandwidth", "authors": "Abhiruchi Passi, P.K.Singhal, Abha Agarwal", "venue": "National Conference on Signal Processing & Communication Technology", "type": "Conference"},
+    {"year": 2013, "title": "Comparison of 2 Ring and 4 Ring shaped defected ground structure in hexagonal double dumbbell shaped Low Pass Filter", "authors": "Abhiruchi Passi, P.K.Singhal, Abha Agarwal", "venue": "National Conference on Microwave Antennas and Remote Sensing", "type": "Conference"},
+    {"year": 2013, "title": "Designing of Transbot or Scoutbot-National Conference", "authors": "Passi, Abhiruchi", "venue": "New Paradigms in Electronics, Communication & Computing", "type": ""},
+    {"year": 2013, "title": "Design of Hexagonal Double Dumbbell shaped Low Pass Filter with high sharpness & wide rejection Bandwidth-", "authors": "Passi, Abhiruchi", "venue": "National Conference on Signal Processing & Communication Technology", "type": "Conference"},
+    {"year": 2011, "title": "Synthesized Nine Pole Microstrip low Pass Filter", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on Future Mobile Radio Systems", "type": "Conference"},
+    {"year": 2011, "title": "Funnel Shaped DGS Low Pass Filter", "authors": "Abhiruchi Passi, P.K.Singhal", "venue": "National Conference on Recent Advances in Microwave Engineering", "type": "Conference"},
+    {"year": 2011, "title": "Funnel Shaped DGS Low Pass Filter -", "authors": "Passi, Abhiruchi", "venue": "", "type": ""},
+    {"year": 2010, "title": "Power Saving Protocols for Multihop Mobile Adhoc Networks (MANETs)", "authors": "Passi, Abhiruchi", "venue": "National Conference on Wireless Communication & VLSI Design", "type": "Conference"},
+    {"year": 2010, "title": "Security issues in Near Field Communication", "authors": "Abhiruchi Passi, Sunita Virmani, Deepak Batra", "venue": "National Conference on Advanced Computing and Communication Technology", "type": "Conference"},
+    {"year": 2010, "title": "Energy Aware Routing Protocol for Wireless Sensor Networks (WSNs)", "authors": "Abhiruchi Passi, Sunita Virmani", "venue": "National Conference on Electronics and Communication", "type": "Conference"},
+    {"year": 2010, "title": "Review of MIMO Technology in LTE-Advanced for 4G Wireless System", "authors": "Abhiruchi Passi, Sunita Virmani", "venue": "National Conference on Electronics and Communication", "type": "Conference"},
+    {"year": 2010, "title": "Power Saving Protocols for Multihop Mobile Adhoc Networks (MANETs) –", "authors": "Passi, Abhiruchi", "venue": "National Conference on Wireless Communication & VLSI Design", "type": "Conference"},
+    {"year": 2007, "title": "Future of MEMS : Challenges ahead", "authors": "Passi, Abhiruchi", "venue": "Emerging Technologies in the field of Electronics, Telecommunication & Control Systems", "type": ""},
+    {"year": null, "title": "Design And Analysis Of Microstrip Filters Using Defected Ground Structure", "authors": "Nagpal, Abhiruchi", "venue": "", "type": ""},
+    {"year": null, "title": "eng", "authors": "abhiruchi", "venue": "", "type": ""},
+    {"year": null, "title": "Image Processing for Forensic Investigation", "authors": "Passi, Abhiruchi", "venue": "", "type": ""},
+    {"year": null, "title": "A comparative study to analyse the impact of nano materials and their energy delivery to the solar panels", "authors": "", "venue": "", "type": ""},
+    {"year": null, "title": "A Front-line Preventive Approach to COVID-19", "authors": "ECE, FET", "venue": "", "type": ""},
+    {"year": null, "title": "beyond landfill", "authors": "", "venue": "", "type": ""},
+    {"year": null, "title": "Sand Cat Swarm Optimization: Implementation, Issues, and Existing Approaches", "authors": "Ab Wahid Bhat, Abhiruchi Passi", "venue": "", "type": ""},
+    {"year": null, "title": "A Novel SCH-VSCH Selection-Enabled Energy Efficient Optimal Path Selection in WSN using LA-FLS and BM-SCSO", "authors": "", "venue": "", "type": ""}
+  ];
+  const esc = t => String(t).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  const list = document.getElementById('pubList'), q = document.getElementById('pubSearch');
+  function renderPubs() {
+    const term = q.value.trim().toLowerCase();
+    const items = PUBLICATIONS.filter(p => [p.title,p.authors,p.venue,p.year].join(' ').toLowerCase().includes(term))
+      .sort((a,b) => (b.year||0) - (a.year||0));
+    list.innerHTML = items.map(p => `
+      <li class="bg-white border border-slate-200 border-t-4 border-t-teal rounded-lg p-5 flex flex-col">
+        <div class="flex items-center justify-between text-xs mb-3">
+          <span class="font-semibold text-teal bg-teal/10 rounded px-2 py-1">${p.year || 'Year n.d.'}</span>
+          <span class="text-slate-500">${esc(p.type || '')}</span>
+        </div>
+        <h3 class="font-serif text-lg text-ink leading-snug">${esc(p.title)}</h3>
+        <p class="text-sm mt-3">${esc(p.authors)}</p>
+        <p class="text-sm italic text-slate-500 mt-1">${esc(p.venue)}</p>
+        ${p.doi ? `<a class="mt-auto pt-4 text-sm text-teal underline" target="_blank" rel="noopener" href="https://doi.org/${encodeURI(p.doi)}">DOI: ${esc(p.doi)}</a>` : ''}
+      </li>`).join('');
+    document.getElementById('pubEmpty').classList.toggle('hidden', items.length > 0);
+    document.getElementById('pubCount').textContent = items.length + ' of ' + PUBLICATIONS.length + ' publications shown';
+  }
+  q.addEventListener('input', renderPubs);
+  renderPubs();
+</script>
+</body>
+</html>
